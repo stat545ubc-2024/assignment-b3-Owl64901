@@ -1,0 +1,12 @@
+name: shiny-app-job-postings
+title: shiny-app-job-postings
+username: owl64901
+account: owl64901
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13397654
+bundleId: 9390946
+url: https://owl64901.shinyapps.io/shiny-app-job-postings/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
