@@ -6,6 +6,8 @@
 
 Access the running instance of the Shiny app here: [shiny-app-job-postings](https://owl64901.shinyapps.io/shiny-app-job-postings/)
 
+**Note: The app may take some time to load. Thank you for your patience.**
+
 ## Description
 
 This Shiny app provides an interactive exploration of job postings across the United States. Users can filter job postings based on salary range, experience level, and state. The app displays the filtered data in an interactive table and visualizes the distribution of job postings on a U.S. map.
