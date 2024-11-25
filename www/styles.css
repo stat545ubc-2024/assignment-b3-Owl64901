@@ -1,0 +1,149 @@
+/* Feature 6: Custom CSS to enhance the app's appearance */
+
+/* Set a light background color for the entire app */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the title panel */
+.title {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold; /* Feature 10: Make the title bold */
+}
+
+/* Style the sidebar panel */
+.sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the main panel */
+.main-panel {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the tab panels */
+.nav-tabs > li > a {
+    color: #2c3e50;
+}
+
+.nav-tabs > li > a:hover {
+    background-color: #ecf0f1;
+    border-color: #ddd;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover {
+    background-color: #ffffff;
+    border-color: #ddd;
+    border-bottom-color: transparent;
+}
+
+/* Style the download button */
+.btn-download {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-download:hover {
+    background-color: #2980b9;
+}
+
+/* Style the download description */
+.download-description {
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 7px;
+    display: inline; /* Ensure inline display */
+    margin: 0; /* Remove default margins */
+}
+
+/* Style the DataTable */
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Style the plot titles */
+.plot-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Center the job count text */
+#job_count_text {
+    color: #27ae60;
+}
+
+/* Adjust margins for better spacing */
+.sidebar, .main-panel {
+    margin: 10px;
+}
+
+/* Additional styles for the pie chart */
+.plot-caption {
+    font-size: 18px; /* Feature 1: Enlarged the font size */
+    color: #2c3e50;
+    margin-top: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Feature 13: Make filter titles bold and adjust spacing */
+.sidebarPanel .filter-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Feature 14: Optimize DataTable appearance */
+table.dataTable thead th {
+    white-space: nowrap;
+}
+
+table.dataTable tbody td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px; /* Adjust as needed */
+}
+
+.dataTables_wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.dataTables_scrollBody {
+    overflow-y: hidden !important; /* Disable vertical scrolling */
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Reduce font size in the table */
+table.dataTable {
+    font-size: 12px;
+}
