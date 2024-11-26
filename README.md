@@ -2,15 +2,21 @@
 
 # U.S. Job Postings Information Shiny App
 
-## Link to the App
+## Links to the App
 
-Access the running instance of the Shiny app here: [shiny-app-job-postings](https://owl64901.shinyapps.io/shiny-app-job-postings/)
+- **New Version:** [shiny-app-job-postings-new-version](https://owl64901.shinyapps.io/shiny-app-job-postings-new-version/)
+  
+  *Note: The new version includes additional features and improvements.*
 
-**Note: The app may take some time to load. Thank you for your patience.**
+- **Old Version:** [shiny-app-job-postings](https://owl64901.shinyapps.io/shiny-app-job-postings/)
+  
+  *Note: The old version of the app is still accessible for reference.*
+
+**Note:** Both versions may take some time to load. Thank you for your patience.
 
 ## Description
 
-This Shiny app provides an interactive exploration of job postings across the United States. Users can filter job postings based on salary range, experience level, and state. The app displays the filtered data in an interactive table and visualizes the distribution of job postings on a U.S. map.
+This Shiny app provides an interactive exploration of job postings across the United States. Users can filter job postings based on salary range, experience level, and state. The app displays the filtered data in an interactive table and visualizes the distribution of job postings on a U.S. map and through a pie chart.
 
 ## Features
 
@@ -23,12 +29,23 @@ This Shiny app provides an interactive exploration of job postings across the Un
 3. **Download Filtered Data as a CSV File**  
    *Users can download the filtered job postings data as a CSV file directly from the app. This feature enables users to save the data for offline analysis or record-keeping.*
 
-4. **Tab Layout with Data Table and Map using `tabsetPanel`**  
-   *The app organizes content into two tabs using `tabsetPanel`: one for the data table and one for the map visualization. This layout enhances user navigation by separating different types of content into manageable sections.*
+4. **Organize Data Table, Job Distribution, and Map into Separate Tabs using `tabsetPanel`**  
+   *The app organizes content into three tabs using `tabsetPanel`: one for the data table, one for the pie chart visualization, and one for the map visualization. This layout enhances user navigation by separating different types of content into manageable sections.*
+
+5. **Interactive Pie Chart Visualization of Job Postings by Region**  
+   *A separate tab displays an interactive pie chart showing the percentage of job postings in each U.S. region (Northeast, Southeast, Midwest, Southwest, West). This chart updates dynamically as users adjust the filters, providing a real-time visual representation of job distribution across different regions.*
+
+6. **Customizable Pie Chart Colors with `colourInput` Controls**  
+   *Users can customize the colors of each region in the pie chart using `colourInput` controls. This feature allows for personalized visualization preferences, enhancing the user experience.*
+
+7. **Enhanced Visual Appearance with Custom CSS**  
+   *The app incorporates custom CSS to improve its overall appearance. This includes styling for the title, sidebar, main panel, tabs, buttons, and other UI elements, ensuring a polished and professional look.*
+
+8. **LinkedIn Logo Integration in the UI**  
+   *A LinkedIn logo is added next to the app's title, providing a professional touch. The logo is appropriately sized and aligned for a cohesive design.*
 
 ## Dataset
 
 The dataset used in this app is the **LinkedIn Job Postings (2023 - 2024)** dataset from Kaggle. It contains a comprehensive collection of job postings scraped from LinkedIn, providing up-to-date information on job opportunities across various states and experience levels.
 
 - **Dataset Source**: [LinkedIn Job Postings (2023 - 2024)](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings)
-
