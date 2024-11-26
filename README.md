@@ -44,6 +44,31 @@ This Shiny app provides an interactive exploration of job postings across the Un
 8. **LinkedIn Logo Integration in the UI**  
    *A LinkedIn logo is added next to the app's title, providing a professional touch. The logo is appropriately sized and aligned for a cohesive design.*
 
+## Usage
+
+1. **Access the App:**
+   - Click on the link to the **New Version** of the app: [shiny-app-job-postings-new-version](https://owl64901.shinyapps.io/shiny-app-job-postings-new-version/)
+
+2. **Apply Filters:**
+   - In the **Filters** sidebar on the left, select the states you are interested in from the **State Code** dropdown.
+   - Adjust the **Minimum Salary** and **Maximum Salary** sliders to set your desired salary range.
+   - Choose the **Experience Level** by selecting one or more options from the checkbox group.
+
+3. **Customize Pie Chart Colors (Optional):**
+   - Scroll down in the sidebar to the **Customize Pie Chart Colors** section.
+   - Use the color pickers to select your preferred colors for each region.
+
+4. **Navigate Through Tabs:**
+   - **Data Table Tab:** View the filtered job postings in an interactive table. You can sort, search, and explore the data. Click the **Download CSV** button to export the data.
+   - **Job Distribution Tab:** View an interactive pie chart showing the distribution of job postings by region. The chart updates dynamically based on your selected filters.
+   - **Map Tab:** Explore a choropleth map displaying the number of job postings per state. The map also updates in real-time as you adjust the filters.
+
+5. **Interact with Visualizations:**
+   - Use the filters to refine the data and instantly see updates in the table and visualizations.
+
+6. **Download Data:**
+   - Click the **Download CSV** button in the **Data Table** tab to download the currently filtered job postings data for offline analysis.
+
 ## Dataset
 
 The dataset used in this app is the **LinkedIn Job Postings (2023 - 2024)** dataset from Kaggle. It contains a comprehensive collection of job postings scraped from LinkedIn, providing up-to-date information on job opportunities across various states and experience levels.
