@@ -1,4 +1,4 @@
-/* Feature 6: Custom CSS to enhance the app's appearance */
+/* Feature 7: Added custom CSS for enhanced visual appearance. */
 
 /* Set a light background color for the entire app */
 body {
@@ -11,7 +11,7 @@ body {
     color: #2c3e50;
     text-align: center;
     margin-bottom: 20px;
-    font-weight: bold; /* Feature 10: Make the title bold */
+    font-weight: bold;
 }
 
 /* Style the sidebar panel */
@@ -51,7 +51,7 @@ body {
     background-color: #3498db;
     color: #ffffff;
     border: none;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -65,8 +65,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     padding-top: 7px;
-    display: inline; /* Ensure inline display */
-    margin: 0; /* Remove default margins */
+    margin-right: 10px;
 }
 
 /* Style the DataTable */
@@ -102,21 +101,20 @@ body {
 
 /* Additional styles for the pie chart */
 .plot-caption {
-    font-size: 18px; /* Feature 1: Enlarged the font size */
+    font-size: 18px;
     color: #2c3e50;
     margin-top: 5px;
     font-style: italic;
     text-align: center;
 }
 
-/* Feature 13: Make filter titles bold and adjust spacing */
 .sidebarPanel .filter-title {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 
-/* Feature 14: Optimize DataTable appearance */
+/* Optimize DataTable appearance */
 table.dataTable thead th {
     white-space: nowrap;
 }
@@ -125,7 +123,7 @@ table.dataTable tbody td {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 150px; /* Adjust as needed */
+    max-width: 150px;
 }
 
 .dataTables_wrapper {
@@ -134,7 +132,7 @@ table.dataTable tbody td {
 }
 
 .dataTables_scrollBody {
-    overflow-y: hidden !important; /* Disable vertical scrolling */
+    overflow-y: hidden !important;
 }
 
 .dataTables_wrapper .dataTables_paginate {
@@ -146,4 +144,13 @@ table.dataTable tbody td {
 /* Reduce font size in the table */
 table.dataTable {
     font-size: 12px;
+}
+
+/* Style the LinkedIn logo */
+.logo {
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
 }
